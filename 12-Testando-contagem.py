@@ -10,18 +10,18 @@ multiplos_tres = [] #criação da lista pra ser usada
 
 for tres in range(3,31,3): #multiplos de tres
     multiplos_tres.append(tres) #metodo append pra adicionar coisas a uma lista
-   
+
 print (multiplos_tres)
 
 
 cubo = []
-for valor in range(1,11):  #forma 1 de fazer potencia de 3
+for valor in range(1,11):  #forma de fazer potencia de 3
     cubo.append(valor**3)
 
 print(cubo)
 
-cubo_alternativo = [valor**3 for valor in range(1,11)] #forma alternativa 
 
+cubo_alternativo = [valor**3 for valor in range(1,11)] #forma alternativa 
 
 print (cubo_alternativo)
 
