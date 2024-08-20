@@ -55,3 +55,53 @@ if grito.lower() == 'gritando':
     print('grita baixo')
 else:
     print(grito)
+
+
+diferente = 'diferenter'
+
+if diferente == 'diferenter':
+    print('true')
+else:
+    print('false')
+
+if diferente == 'diogo defante':
+    print('true')
+else:
+    print('false')
+
+if diferente != 'diogo defante':
+    print('true')
+else:
+    print('false')
+
+if diferente != 'diferenter':
+    print('true')
+else:
+    print ('false')
+
+if diferente == 'DIFERENTER'.lower():
+    print('true')
+else:
+    print('false')
+
+if diferente.upper() == 'DIFERENTER':
+    print('True')
+else:
+    print('false')
+
+if 'violão' in coisas:
+    print('tem violao')
+
+if 4 < 5:
+    print('4 é maior do que 5')
+
+if 4 != 230 or 4 == idade:
+    print ('sei la')
+
+if 45 and 27 != 25:
+    print ('é diferente')
+
+if 50 == 62 or 24 == 4041 or 24 == 24 and 22 == 23 or 22 == 24:
+    print ('é isso')
+else:
+    ('não é isso')
