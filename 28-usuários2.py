@@ -1,4 +1,4 @@
-Cadastrados = ['Leo', 'David', 'Dio', 'Otavio', 'admin', 'mAlAgUeTa']
+Cadastrados = ['Leo', 'David', 'Dio', 'Otavio', 'admin']
 Novos = ['Leo', 'admin', 'Malagueta', 'dio']
 
 for cadastro in Novos:
