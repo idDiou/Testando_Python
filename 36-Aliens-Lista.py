@@ -24,3 +24,4 @@ for alien in aliens[0:5]:
 
 print('LISTA 2')
 print(aliens)
+print('numero total de alienigenas:', str(len(aliens)))

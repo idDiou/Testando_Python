@@ -11,4 +11,3 @@ print('assisti o filme Gato de Botas 2 e nele vi personagens muito legais, algun
 for nome, info in PETS.items():
         print(nome)
         print('é um', info['Tipo'], 'e utiliza', info['Arma'], 'Como arma')
-    
