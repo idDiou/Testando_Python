@@ -12,6 +12,6 @@ idade = input('qual a sua idade?')
 
 age = input('quantos anos você tem?')
 age = int(age)
-s
+
 if age >= 18:
     print(age)
