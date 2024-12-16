@@ -1,10 +1,10 @@
-pets = animais = ['gato', 'cachorro', 'gato', 'gato', 'napoleão', 'goblin', 'mamute', 'gato', 'peixe', 'besouro']
+pets = animais = ['pastrami', 'cachorro', 'gato', 'gato', 'napoleão', 'goblin', 'mamute', 'gato', 'peixe', 'besouro']
 
 print(pets)
 
 #enquanto houver gatos o programa vai remove-los
 
-while 'gato' in pets:
-    pets.remove('gato')
+while 'pastrami' in pets:
+    pets.remove('pastrami')
 
 print(pets)
