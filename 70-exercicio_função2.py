@@ -15,6 +15,8 @@ coleção = {}
 def make_album(artista, album, qtd_musica = 0):
     coleção[artista] = {'albuum':album, 'musicass': qtd_musica}
 
+#acima há o método para formar dicionários corretamente.
+
 while True:
     print('digite "q" para finalizar o programa')
     print('\ndigite um artista e um album para armazenarmos')
