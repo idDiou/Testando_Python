@@ -7,7 +7,7 @@ def perfil(first_name, last_name, **caracteristicas):
     Me = {}
     Me['first_name'] = first_name
     Me['last_name'] = last_name
-    print('\nmeu nome é', first_name, last_name,'essas são minhas características:')
+    print('meu nome é', first_name, last_name,'essas são minhas características:')
     for key,value in caracteristicas.items():
         Me [key] = value
         print('\n*'+key +':\n')
