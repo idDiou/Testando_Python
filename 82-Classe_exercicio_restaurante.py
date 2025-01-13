@@ -11,7 +11,6 @@ class Restaurante():
         self.tipo = tipo
     def desc(self):
         print('este é o ' + self.nome.title() + ' um restaurante que serve ' + self.tipo.title()) 
-        Restaurante.open()
     def open(self):
         print('**portas se abrindo**')
         print('o ' + self.nome.title()+ ' está com as portas abertas.')
@@ -20,10 +19,11 @@ class Restaurante():
 comida1 = Restaurante('Akibaba', 'Comida Arábe')
 
 comida1.desc()
-
+comida1.open()
 
 print('\n')
 
 comida2 = Restaurante('Kalzone', 'Pastéis Assados')
 
 comida2.desc()
+comida2.open()
