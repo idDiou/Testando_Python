@@ -1,4 +1,4 @@
-import Bateria
+from Bateria import Battery
 
 class Car():
     """uma tentativa simples de representar um carro"""
@@ -6,24 +6,21 @@ class Car():
         self.make = make
         self.model = model
         self.year = year
-        self.odometro = 0
+        self.odometro = 5
     def get_desc(self): 
         long_name = str(self.year) + ' ' + self.make + ' ' + self.model
         return long_name.title()
     def kmtragem(self):
         print('esse carro rodou ' + str(self.odometro) + '|KM, até o momento.')
-    def combustivel():
-        print('o carro é movido a gasolina')
+    def update_km(self, mileage):
+        if mileage >= self.odometro:
+            self.odometro = mileage
+        else:
+            print('você não pode retroceder o odometro!')
+    def incrementando(self, miles):
+        """soma a quantidade especificada ao valor de leitura do hodômetro"""
+        self.odometro += miles
 
-class EletricCar(Car):
-    """cria um carro só que elétrico"""
-    def __init__(self, make, model, year):
-        super().__init__(make, model, year)
-        self.bateria = Bateria.Battery
-    def desc_bateria(self):
-        print('este carro tem ' + str(self.bateria)+'-kWh de bateria.')
-    def combustivel(self):
-        print('este carro é movido a energia elétrica, não precisa de gasolina.')
 
 
 new_car = Car('audi', 'A4', '2016')
@@ -34,5 +31,3 @@ print(new_car.get_desc())
 #mas abaixo consegui alterar ele para 23 conforme necessidade.
 new_car.odometro = 23
 new_car.kmtragem()
-
-#mas também é possível alterar com um método, como farei no próximo exercício o 83.2

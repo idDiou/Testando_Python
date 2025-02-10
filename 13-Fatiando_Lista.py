@@ -1,4 +1,4 @@
-players = ['jose', 'roberto', 'thiago', 'mamao']
+players = ['1-jose', '2-roberto', '3-thiago', '4-mamao']
 
 #da mesma forma que range, a contagem para 1 numero abaixo
 #exemplo: começa em 0 e termina em 2

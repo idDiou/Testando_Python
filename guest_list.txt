@@ -1,0 +1,22 @@
+Numero de Visitantes totais do MarteBurguer:
+5
+----------------------------------------------------------------------------------------------
+Nome:Dio
+Pedidos: gostaria de um hamburguer
+Convidado numero: 1
+
+Nome:rocambole
+Pedidos: de uma katoryn
+Convidado numero: 2
+
+Nome:dio apenas
+Pedidos: guacamole
+Convidado numero: 3
+
+Nome:gincobiloba
+Pedidos: cabelo
+Convidado numero: 4
+
+Nome:Lucianinho
+Pedidos: Sapos
+Convidado numero: 5

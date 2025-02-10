@@ -1,6 +1,6 @@
 #range é utilizado para contar os numeros dentro de um intervalo
 #range inicia no valor indicado e termina um valor abaixo
-for valor in range(1,5):
+for valor in range(1,6):
     print (valor)
 
 #usando range para criar lista de numeros

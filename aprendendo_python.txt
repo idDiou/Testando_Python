@@ -1,0 +1,8 @@
+em python podemos fazer calculos matematicos
+em python podemos criar listas, dicionários e tuplas
+em python podemos armazenar informações nessas listas, dicionários e tuplas
+em python podemos criar laços e loopings para acessar esssas informações e trabalhar com elas
+em python podemos testar condicionalmente todas essas outras coisas, com ifs, elifs e elses
+em python podemos criar métodos para organizar em blocos todas essas coisas sem a necessidade de escrever várias vezes a mesma coisas
+em python podemos criar classes para armazenar esses métodos e o que nos permite também a programação orientada a objetos
+em python podemos ler dados de arquivos

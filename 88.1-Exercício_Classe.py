@@ -35,6 +35,7 @@ class Admin(Users):
         self.priv = ['Pode postar', 'Pode alterar qualquer senha', 'Pode apagar qualquer post', 'Pode banir']
 
 dio = Admin('Dionata', 'DioApenas', 'admin')
+kat = Users('Katoryn', 'KatGatinha123', 'Usuário')
 
 dio.desc()
 dio.desc_priv()
