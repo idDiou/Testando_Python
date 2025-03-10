@@ -1,8 +1,6 @@
 Numero de Visitantes totais do MarteBurguer:
-5
-----------------------------------------------------------------------------------------------
-Nome:Dio
-Pedidos: gostaria de um hamburguer
+7
+----------------------------------------------------------------------------------------------Pedidos: gostaria de um hamburguer
 Convidado numero: 1
 
 Nome:rocambole
@@ -20,3 +18,11 @@ Convidado numero: 4
 Nome:Lucianinho
 Pedidos: Sapos
 Convidado numero: 5
+
+Nome:Dio 15/02/2025
+Pedidos: Hoje eu gostaria de poder dar uma vida boa para a minha esposa e para os meus irmãos, gostaria de dar uma casa para a minha mãe, gostaria de ser mais forte...
+Convidado numero: 6
+
+Nome:Dio
+Pedidos: Hoje eu gostaria de não existir, por apenas um dia e depois magicamente voltar a existir
+Convidado numero: 7
